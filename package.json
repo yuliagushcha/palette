@@ -1,0 +1,29 @@
+{
+  "name": "yuliagushcha-rs2019q3",
+  "version": "1.0.0",
+  "description": "Private repository for @yuliagushcha",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/yuliagushcha-RS2019Q3.git"
+  },
+  "keywords": [
+    "palette",
+    "eslint"
+  ],
+  "author": "YuliaGushcha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/yuliagushcha-RS2019Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/yuliagushcha-RS2019Q3#readme"
+}

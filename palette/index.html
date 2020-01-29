@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./assets/images/nav icon.png" alt="icon">
+            <p class="header--text">CodeJam - Palette</p>
+            <img src="./assets/images/menu icon.png" alt="icon">
+        </header>
+        <main class="main">
+            <div class="leftPanel">
+                <div class="instruments">
+                    <div class="instruments--items bucket">
+                        <img src="./assets/images/icon-share.png" alt="icon">
+                        <p class="instruments--text">Paint bucket</p>
+                    </div>
+                    <div class="instruments--items underlined choosing">
+                        <img src="./assets/images/icon-upload.png" alt="icon">
+                        <input type="color" value="#ff0000" id="colorWell">
+                        <label for="colorWell" class="instruments--text">Choose color</label>
+                    </div>
+                    <div class="instruments--items pencil">
+                        <img src="./assets/images/pencil.png" alt="icon">
+                        <p class="instruments--text">Pencil</p>
+                    </div>
+                    <div class="instruments--items transform">
+                        <img src="./assets/images/icon-share2.png" alt="icon">
+                        <p class="instruments--text">Transform</p>
+                    </div>
+                </div>
+                <div class="colors">
+                    <div class="instruments--items">
+                        <div class="colors--iconColor current"></div>
+                        <p class="instruments--text">Current color</p>
+                    </div>
+                    <div class="instruments--items underlined">
+                        <div class="colors--iconColor previous"></div>
+                        <p class="instruments--text">Prev color</p>
+                    </div>
+                    <div class="instruments--items">
+                        <div class="colors--iconColor red"></div>
+                        <p class="instruments--text">red</p>
+                    </div>
+                    <div class="instruments--items">
+                        <div class="colors--iconColor blue"></div>
+                        <p class="instruments--text">blue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas">
+                <canvas id="canvas" width="512" height="512"></canvas>
+            </div>
+            <div class="rightPanel">
+                <div class="size">
+                    <div class="instruments--items firstImage">
+                        <div class="size--checkBlock"></div>
+                        <p class="instruments--text">4x4</p>
+                    </div>
+                    <div class="instruments--items secondImage">
+                        <div class="size--checkBlock"></div>
+                        <p class="instruments--text">32x32</p>
+                    </div>
+                    <div class="instruments--items thirdImage">
+                        <div class="size--checkBlock"></div>
+                        <p class="instruments--text">256x256</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
